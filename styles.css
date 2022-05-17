@@ -181,3 +181,15 @@ width: 90%;
 .videoTexto{
     margin-top: 1vh;
 }
+
+.qrContainer{
+align-items: center;
+padding: 1vh;
+margin-bottom: 1vh;
+}
+
+.qr{
+    width: 50vh;
+    height: auto;
+    border-radius: 10px;
+}
