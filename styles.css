@@ -1,0 +1,183 @@
+title{display:none;}
+
+*{
+    display: flex;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FFF2F9;
+    height: 100%;
+    min-height: 100%;
+}
+
+.header{
+    padding: 4vh 2vh;
+    width: 100%;
+    position: fixed;
+    flex-direction: row;
+    background-color: #323232;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.link{
+    font-size: 1.5vh;
+    background-color: #505050;
+    border: #505050;
+    border-bottom: 2px #505050;
+    border-style: solid;
+    padding: 1vh 1vh;
+    color: whitesmoke;
+    text-decoration: none;
+    margin-right: 5vh;
+    font-weight: bold;
+}
+
+.pressedLink{
+    font-size: 1.5vh;
+    background-color: #505050;
+    border: #505050;
+    border-bottom: 2px #FA4EAB;
+    border-style: solid;
+    padding: 1vh 1vh;
+    color: whitesmoke;
+    text-decoration: none;
+    margin-right: 5vh;
+    font-weight: bold;
+}
+
+.headerText{
+    color: whitesmoke;
+    align-self: flex-start;
+    justify-self: flex-start;
+}
+
+.links{
+    flex-direction: row;
+}
+
+.title{
+    margin-top: 10vh;
+    padding: 5%;
+    background-color: #FA4EAB;
+    color: aliceblue;
+}
+
+.info{
+    background-color: #FE83C6;
+    margin: 1vh 6vh;
+    padding: 2vh;
+    color: whitesmoke;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.videoRiego{
+height: 100%;
+width: 90%;
+}
+
+.infoRiego{
+    background-color: #FE83C6;
+    align-items: center;
+    height: 40vh;
+    margin: 1vh 6vh;
+    padding: 2vh;
+    color: whitesmoke;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.videoCaja{
+    background-color: rgba(254, 129, 197, 50%);
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    align-self: center;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+    margin: 3vh 2vh;
+    padding: 1vh;
+    color: whitesmoke;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.videoTutorial{
+    background-color: rgba(254, 129, 197, 80%);
+}
+
+.videoDescripcion{
+    background-color: rgba(254, 129, 197, 80%);
+    border-radius: 5px;
+    width: 50vh;
+    height: fit-content;
+    text-align: center;
+    margin: 1vh 2vh;
+    padding: 1vh;
+    color: whitesmoke;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+}
+
+.footer{
+    background-color: #FA4EAB;
+    display: flex;
+    padding: 3vh;
+    text-align: start;
+    align-items: center;
+    font-size: 1cm; font-weight: bold; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+
+}
+
+.materialesSeparador{
+    background-color: #FA4EAB;
+    display: flex;
+    padding: 3vh;
+    text-align: start;
+    align-items: center;
+    font-size: 1cm; font-weight: bold; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+.listaMateriales{
+    background-color: rgba(254, 129, 197, 80%);
+    padding: 1vh;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 2vh ;
+    flex-wrap: wrap;
+}
+
+.material{
+    background-color: #FE83C6;
+    padding: 1vh;
+    margin: 1vh 1vh;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.imagenMaterial{
+    width: 18vh;
+    height: 18vh;
+    margin-bottom: 1vh;
+}
+.imagenGrande{
+    width: auto;
+    height: 20vh;
+}
+.containerVideo{
+    display: flex;
+    flex-direction: column;
+}
+
+.videoTexto{
+    margin-top: 1vh;
+}
